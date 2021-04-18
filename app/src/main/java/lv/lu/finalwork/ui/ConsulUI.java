@@ -3,10 +3,11 @@ package lv.lu.finalwork.ui;
 import lv.lu.finalwork.model.repository.ProductCategory;
 import lv.lu.finalwork.model.ui.ProductInputData;
 import lv.lu.finalwork.service.ProductService;
+import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
 import java.util.Scanner;
-
+@Component
 public class ConsulUI {
 
     private final ProductService service;

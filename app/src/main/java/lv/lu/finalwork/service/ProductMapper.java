@@ -5,9 +5,10 @@ import lv.lu.finalwork.model.repository.ProductCategory;
 import lv.lu.finalwork.model.ui.ProductData;
 import lv.lu.finalwork.model.ui.ProductInputData;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
-@Component
+@Service
 public class ProductMapper {
 
     public ProductData mapFrom(Product product) {

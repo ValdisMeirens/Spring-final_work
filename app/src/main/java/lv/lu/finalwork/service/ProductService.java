@@ -7,11 +7,12 @@ import lv.lu.finalwork.model.ui.ProductInputData;
 import lv.lu.finalwork.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
-@Component
+@Service
 public class ProductService {
 
     @Autowired private ProductRepository repository;

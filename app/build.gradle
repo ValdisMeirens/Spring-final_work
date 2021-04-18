@@ -18,6 +18,8 @@ repositories {
 
 dependencies {
     // Use JUnit test framework.
+    implementation group: 'org.springframework', name: 'spring-context', version: '5.3.6'
+
     testImplementation 'junit:junit:4.13'
     testImplementation group: 'org.mockito', name: 'mockito-core', version: '3.9.0'
 
@@ -26,4 +28,5 @@ dependencies {
 application {
     // Define the main class for the application.
     mainClass = 'lv.lu.martins.ceske.finalwork.ProductAccountingApplication'
+
 }

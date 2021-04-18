@@ -14,10 +14,9 @@ import java.util.Scanner;
 public class ConsulUI {
 
     @Autowired private ProductService service;
-    private Scanner scanner; //DID NOT MANAGE TO AUTOWIRE OR FIND WORKAROUND IN GOOGLE, SORRY :D
+    @Autowired private Scanner scanner;
 
     public void startUi() {
-        scanner = new Scanner(System.in);
         int userChoice;
         while (true) {
 

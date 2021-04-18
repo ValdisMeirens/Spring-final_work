@@ -1,5 +1,7 @@
 package lv.lu.finalwork.model.ui;
 
+import org.springframework.stereotype.Component;
+@Component
 public class ProductInputData {
 
     private String name;

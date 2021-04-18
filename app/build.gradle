@@ -18,6 +18,7 @@ repositories {
 
 dependencies {
     // Use JUnit test framework.
+    //added spring context
     implementation group: 'org.springframework', name: 'spring-context', version: '5.3.6'
 
     testImplementation 'junit:junit:4.13'

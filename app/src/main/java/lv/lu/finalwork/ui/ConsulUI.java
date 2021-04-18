@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class ConsulUI {
 
     @Autowired private ProductService service;
-    private Scanner scanner;
+    private Scanner scanner; //DID NOT MANAGE TO AUTOWIRE OR FIND WORKAROUND IN GOOGLE, SORRY :D
 
     public void startUi() {
         scanner = new Scanner(System.in);

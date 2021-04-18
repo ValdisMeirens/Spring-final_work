@@ -1,10 +1,10 @@
 package lv.lu.finalwork.model.repository;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import java.math.BigDecimal;
 import java.util.Objects;
-@Component
+@Repository
 public class Product {
 
     private Long id;

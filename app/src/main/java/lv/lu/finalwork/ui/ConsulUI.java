@@ -15,11 +15,6 @@ public class ConsulUI {
     @Autowired private ProductService service;
     private Scanner scanner;
 
-//    public ConsulUI(ProductService service, Scanner scanner) {
-//        this.service = service;
-//        this.scanner = scanner;
-//    }
-
     public void startUi() {
         scanner = new Scanner(System.in);
         int userChoice;

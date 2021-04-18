@@ -17,11 +17,6 @@ public class ProductService {
     @Autowired private ProductRepository repository;
     @Autowired private ProductMapper mapper;
 
-//    public ProductService(ProductRepository repository, ProductMapper mapper) {
-//        this.repository = repository;
-//        this.mapper = mapper;
-//    }
-
     public void save(ProductInputData productInputData) {
         final Product product = mapper.mapFrom(productInputData);
         repository.save(product);

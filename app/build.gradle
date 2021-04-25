@@ -20,6 +20,8 @@ dependencies {
     // Use JUnit test framework.
     //added spring context
     implementation group: 'org.springframework', name: 'spring-context', version: '5.3.6'
+    //H2 database
+    implementation group: 'com.h2database', name: 'h2', version: '1.4.200'
 
     testImplementation 'junit:junit:4.13'
     testImplementation group: 'org.mockito', name: 'mockito-core', version: '3.9.0'
